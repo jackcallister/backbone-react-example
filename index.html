@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Backbone Example</title>
+  <script type='text/template' id='todo-template'>
+    <li class='toggle'><%- text %> <%- completed %></li>
+  </script>
+
+  <script type="text/javascript" src="./bundle.js"></script>
+</head>
+<body>
+  <div id='app'>
+    <h1>Todos</h1>
+    <div id='todo'>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- <div class='view'>
+      <input class='toggle' type='checkbox' <%= done ? 'checked='checked'' : '' %> />
+      <li><%- text %></li>
+      <a class='destroy'></a>
+    </div>
+    <input class='edit' type='text' value='<%- title %>' /> -->
