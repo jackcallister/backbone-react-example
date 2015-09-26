@@ -11,7 +11,6 @@ const TodoModel = Backbone.Model.extend({
   },
 
   toggle: function() {
-    debugger
     this.set({
       completed: !this.get('completed')
     })

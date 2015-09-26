@@ -73,7 +73,6 @@
 	  },
 
 	  toggle: function toggle() {
-	    debugger;
 	    this.set({
 	      completed: !this.get('completed')
 	    });
